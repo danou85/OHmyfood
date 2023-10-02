@@ -248,7 +248,7 @@ footer .footer-ohmyfood li i {
   padding: 5px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   /* Votre CSS pour les grands écrans ici */
   .fonctionnement-liste {
     display: flex;
@@ -270,4 +270,5 @@ footer .footer-ohmyfood li i {
   }
 }
 /*PARTIE ACCUEIL*/
+
 
