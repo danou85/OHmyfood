@@ -1,63 +1,65 @@
-/*footer*/
+$footer-bg-color: #353535;
+$footer-text-color: white;
+
 footer {
-    background:  #353535;
-    padding: 20px;
+  background: $footer-bg-color;
+  padding: 20px;
 
-    ul {
-        padding: 0%;
+  ul {
+    padding: 0;
+  }
+
+  &.footer-ohmyfood {
+    color: $footer-text-color;
+
+    h5 {
+      font-family: Shrikhand;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: $footer-text-color;
     }
 
-    .footer-ohmyfood {
-        color: white;
+    li {
+      list-style-type: none;
 
-        h5 {
-            font-family: Shrikhand;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            color: white;
-        }
+      a {
+        color: $footer-text-color;
+        text-decoration: none;
+      }
 
-        li {
-            list-style-type: none;
-
-            a {
-                color: white;
-                text-decoration: none;
-            }
-
-            i {
-                color: white;
-                padding: 5px;
-            }
-        }
+      i {
+        color: $footer-text-color;
+        padding: 5px;
+      }
     }
+  }
 }
-
 @media screen and (min-width: 768px) {
-    /* Votre CSS pour les grands écrans ici */
-    .footer-ohmyfood {
-        display: flex;
-        flex-direction: row-reverse;
+  /* Votre CSS pour les grands écrans ici */
 
-        h5 {
-            margin-left: 60px;
-            margin-right: 30px;
-            font-family: Shrikhand;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            color: white;
-        }
+  .footer-ohmyfood {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-        ul {
-            padding: 0%;
-            display: flex;
-            gap: 31px;
-            align-items: center;
-            justify-content: flex-end;
-        }
-    }
+  .footer-ohmyfood h5 {
+    margin-left: 45px;
+    margin-right: 30px;
+    font-family: Shrikhand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+  }
+
+  .footer-ohmyfood ul {
+    padding: 0%;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }

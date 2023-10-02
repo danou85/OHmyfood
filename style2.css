@@ -559,8 +559,10 @@ footer {
 
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
     /* Votre CSS pour les grands écrans ici */
+
+    
 
 
 .footer-ohmyfood {
@@ -584,23 +586,51 @@ footer {
     align-items: center;
     justify-content: flex-end;
   }
+  .fonctionnement-titre {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 13%;
+  }
   .fonctionnement-liste {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     padding-left: 0px;
 }
   .carte-menu {
-    width: 45%;
+    width: 43%;
+    margin: auto;
   }
+
+  .restaurant-carte {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    padding-bottom: 75px;
+    margin-left: 161px;
+    margin-right: 160px;
+  }
+
+  .restaurant-title {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-left: 13%;
+}
   .num-1,
   .num-2,
   .num-3 {
-    width: 320px;
+    width: 335px;
     height: 72.379px;
     box-sizing: border-box;
+    justify-content: center;
     padding-right: 20px;
+    margin-left: 20px;
   }
   
 }
