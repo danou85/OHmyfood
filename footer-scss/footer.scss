@@ -1,65 +1,63 @@
-$footer-bg-color: #353535;
-$footer-text-color: white;
-
+/*footer*/
 footer {
-  background: $footer-bg-color;
-  padding: 20px;
-
-  ul {
-    padding: 0;
+    background:  #353535;
+    padding: 20px;
+  
+    ul {
+        padding: 0%;
+    }
+  
+    .footer-ohmyfood {
+        color: white;
+  
+        h5 {
+            font-family: Shrikhand;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: white;
+        }
+  
+        li {
+            list-style-type: none;
+  
+            a {
+                color: white;
+                text-decoration: none;
+            }
+  
+            i {
+                color: white;
+                padding: 5px;
+            }
+        }
+    }
   }
 
-  &.footer-ohmyfood {
-    color: $footer-text-color;
-
-    h5 {
-      font-family: Shrikhand;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      color: $footer-text-color;
-    }
-
-    li {
-      list-style-type: none;
-
-      a {
-        color: $footer-text-color;
-        text-decoration: none;
-      }
-
-      i {
-        color: $footer-text-color;
-        padding: 5px;
-      }
-    }
-  }
-}
 @media screen and (min-width: 768px) {
-  /* Votre CSS pour les grands écrans ici */
+    /* Votre CSS pour les grands écrans ici */
+    .footer-ohmyfood {
+        display: flex;
+        flex-direction: row-reverse;
 
-  .footer-ohmyfood {
-    display: flex;
-    flex-direction: row-reverse;
-  }
+        h5 {
+            margin-left: 60px;
+            margin-right: 30px;
+            font-family: Shrikhand;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: white;
+        }
 
-  .footer-ohmyfood h5 {
-    margin-left: 45px;
-    margin-right: 30px;
-    font-family: Shrikhand;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: white;
-  }
-
-  .footer-ohmyfood ul {
-    padding: 0%;
-    display: flex;
-    gap: 31px;
-    align-items: center;
-    justify-content: flex-end;
-  }
+        ul {
+            padding: 0%;
+            display: flex;
+            gap: 31px;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
 }
