@@ -1,0 +1,889 @@
+@charset "UTF-8";
+.accueil {
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  /*main-location*/
+}
+.accueil main {
+  background-color: rgb(246, 246, 246);
+  padding-bottom: 60px;
+  /*main-reservation*/
+}
+
+
+/*fonctionnement*/
+
+.accueil main .fonctionnement {
+  padding-bottom: 30px;
+}
+.accueil main .fonctionnement .fonctionnement-titre {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin-left: 5%;
+}
+.accueil main .fonctionnement .num-1,
+.accueil main .fonctionnement .num-2,
+.accueil main .fonctionnement .num-3 {
+  width: 93%;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--background, #F6F6F6);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1000px) {
+  .accueil main .fonctionnement .num-1,
+.accueil main .fonctionnement .num-2,
+.accueil main .fonctionnement .num-3 {
+    max-width: 320px !important;
+  }
+}
+.accueil main .fonctionnement .num-1 span,
+.accueil main .fonctionnement .num-2 span,
+.accueil main .fonctionnement .num-3 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9356DC;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 24px;
+  height: 25px;
+  position: relative;
+  right: 30px;
+}
+.accueil main .fonctionnement .fa-solid.fa-mobile-screen-button,
+.accueil main .fonctionnement .fa-solid.fa-list-ul,
+.accueil main .fonctionnement .fa-solid.fa-store {
+  color: #7E7E7E;
+  padding: 15px;
+  margin-left: -25px;
+}
+.accueil main .location {
+  background-color: #EAEAEA;
+  padding: 0.5rem;
+  align-items: center;
+  margin-top: 3px;
+}
+.accueil main .location h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+.accueil main .location i {
+  width: 12px;
+  height: 16px;
+}
+.accueil main .reservation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.accueil main .reservation .content-explorer {
+  display: flex;
+  justify-content: center;
+}
+.accueil main .reservation .reservez {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.accueil main .reservation .decouvrez {
+  color: #353535;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.accueil main .reservation .bouton-explorer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--button-gradient, linear-gradient(175deg, #9356DC 0%, #FF79DA 100%));
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.accueil main .reservation .bouton-explorer .explorer-bouton {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.accueil main .reservation .bouton-explorer:hover {
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.accueil main .fonctionnement {
+  padding-bottom: 30px;
+}
+.accueil main .fonctionnement .fonctionnement-titre {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 30px;
+  margin-left: 5%;
+}
+.accueil main .fonctionnement .num-1,
+.accueil main .fonctionnement .num-2,
+.accueil main .fonctionnement .num-3 {
+  width: 93%;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--background, #F6F6F6);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1000px) {
+  .accueil main .fonctionnement .num-1,
+  .accueil main .fonctionnement .num-2,
+  .accueil main .fonctionnement .num-3 {
+    max-width: 320px !important;
+  }
+}
+.accueil main .fonctionnement .num-1 span,
+.accueil main .fonctionnement .num-2 span,
+.accueil main .fonctionnement .num-3 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9356DC;
+  color: #ffffff;
+  border-radius: 15px;
+  width: 24px;
+  height: 25px;
+  position: relative;
+  right: 30px;
+}
+.accueil main .fonctionnement .fa-solid.fa-mobile-screen-button,
+.accueil main .fonctionnement .fa-solid.fa-list-ul,
+.accueil main .fonctionnement .fa-solid.fa-store {
+  color: #7E7E7E;
+  padding: 15px;
+  margin-left: -25px;
+}
+
+/*restaurant*/
+.restaurant-section {
+  background: var(--background, #F6F6F6);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none; /* Supprime la soulignement */
+  outline: none; /* Supprime la bordure de focus */
+  color: inherit; /* Utilise la couleur du texte environnant */
+}
+
+.restaurant-title {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-left: 5%;
+}
+
+.restaurant-carte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  padding-bottom: 75px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.carte-menu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative; /* Ajout de position relative au conteneur */
+  width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  .carte-menu {
+    width: 45% !important;
+  }
+}
+
+.carte-menu .content-carte {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 15px 15px;
+  position: relative;
+}
+
+.carte-menu .content-carte .btn-like {
+  width: 30%;
+}
+
+.carte-menu img {
+  width: 100%;
+  height: 231px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.carte-menu .carte-badge {
+  position: absolute; /* Utilisation de position absolute pour le badge */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: var(--green, #99E2D0);
+  color: var(--green-font, #008766);
+  font-size: 14px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  right: 0.5rem; /* À 0,5rem du bord gauche */
+  top: 0.5rem; /* À 0,5rem du bord supérieur */
+}
+
+.carte-menu .carte-content h3 {
+  margin-bottom: -13px;
+  margin-top: 12px;
+}
+
+.carte-menu .carte-content p {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.carte-content {
+  margin-left: 10px;
+}
+
+/*coeur*/
+.fa-regular.fa-heart {
+  font-size: 22px;
+  display: flex;
+  justify-content: end;
+  top: 22px;
+  right: 5px;
+  position: relative;
+}
+
+.fa-solid.fa-heart {
+  font-size: 22px;
+  color: transparent;
+  transition: opacity 800ms ease-in-out;
+  position: relative;
+  right: 5px;
+}
+
+.bouton-like:hover .fa-solid.fa-heart {
+  background: var(--button-gradient, linear-gradient(175deg, #9356DC 0%, #FF79DA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+}
+
+/*restaurant*/
+.restaurant-section {
+  background: var(--background, #F6F6F6);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.restaurant-title {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-left: 5%;
+}
+
+.restaurant-carte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  padding-bottom: 75px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.carte-menu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative; /*position relative au conteneur*/
+  width: 100%;
+}
+
+.carte-menu .content-carte {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 15px 15px;
+  position: relative;
+}
+
+.carte-menu .content-carte .btn-like {
+  width: 30%;
+}
+
+.carte-menu img {
+  width: 100%;
+  height: 231px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.carte-menu .carte-badge {
+  position: absolute; /*position absolute pour le badge*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: var(--green, #99E2D0);
+  color: var(--green-font, #008766);
+  font-size: 14px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  right: 0.5rem; /* À 0,5rem du bord gauche */
+  top: 0.5rem; /* À 0,5rem du bord supérieur */
+}
+
+.carte-menu .carte-content h3 {
+  margin-bottom: -13px;
+  margin-top: 12px;
+}
+
+.carte-menu .carte-content p {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.resto {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  /*.............................................................*/
+  /*.............................................................*/
+  /* bouton violet */
+}
+.resto .image-palette img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.resto .btn-like-resto {
+  margin-left: 20px;
+  position: relative;
+}
+.resto .btn-like-resto .fa-regular.fa-heart {
+  right: 0px;
+  top: 0px;
+  font-size: 22px;
+}
+.resto .btn-like-resto .fa-solid.fa-heart {
+  font-size: 22px;
+  color: transparent;
+  transition: all 500ms ease-in-out;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.resto .btn-like-resto:hover .fa-solid.fa-heart {
+  background: var(--button-gradient, linear-gradient(175deg, #9356DC 0%, #FF79DA 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: scale(1.2);
+}
+.resto .menu-item {
+  background-color: white;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  opacity: 0; /* Opacité initiale à 0 pour masquer les éléments au début */
+  transform: translateY(20px); /* Transformation initiale pour déplacer les éléments vers le bas */
+  animation: fadeInUp 1s ease-in-out 0s 1 normal forwards; /* Animation d'entrée */
+}
+.resto .menu-item.delay-1 {
+  animation-delay: 0.2s;
+}
+.resto .menu-item.delay-2 {
+  animation-delay: 0.6s;
+}
+.resto .menu-item.delay-3 {
+  animation-delay: 1s;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.resto .menu-item .content-price-check {
+  display: flex;
+}
+.resto .menu-item .content-text {
+  overflow: hidden;
+}
+.resto .menu-item h3 {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+.resto .menu-item p {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-size: 15.043px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.resto .menu-item:hover .check {
+  margin-right: 0px;
+}
+.resto .menu-item .price {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+  padding-bottom: 16px;
+}
+.resto .menu-item .check {
+  background-color: #99e2d0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-right: -71px;
+  transition: all 0.3s ease-in-out;
+}
+.resto .titre-entre h3 {
+  font-weight: 400;
+}
+.resto .titre-plat h3 {
+  font-weight: 400;
+}
+.resto .titre-palette {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.resto main {
+  background-color: #F6F6F6;
+}
+.resto .ensemble-entre {
+  display: flex;
+  width: 95%;
+  height: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.resto .titre-entre {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 15px;
+  border-bottom: 2px solid #99e2d0;
+  height: 44px;
+  width: 35px;
+}
+.resto .center-section {
+  display: flex;
+  justify-content: center;
+}
+.resto .section-menu {
+  background-color: #F6F6F6;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: -50px;
+  z-index: 20;
+  position: relative;
+  width: 100%;
+}
+.resto main h1 {
+  margin-left: 10px;
+  color: var(--Black, #101010);
+  font-family: Shrikhand;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.resto .titre-plat {
+  margin-left: 20px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  border-bottom: 2px solid #99e2d0;
+  height: 25px;
+  width: 35px;
+}
+.resto .entre-1 {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin-left: 0%;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  height: 65px;
+  position: relative;
+  padding-top: 10px;
+}
+.resto .entre-1 p {
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.resto span {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.resto .euro {
+  color: #353535;
+  font-family: "Roboto", sans-serif;
+  font-size: 15.043px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  position: relative;
+  left: 92%;
+  right: 10px;
+  bottom: 20px;
+}
+.resto .bouton-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.resto .bouton-commander {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--button-gradient, linear-gradient(175deg, #9356DC 0%, #FF79DA 100%));
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  transition: box-shadow 0.3s ease-in-out; /* Ajout de la transition pour l'ombre */
+}
+.resto .bouton-commander:hover {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5); /* L'ombre devient plus grande au survol */
+}
+.resto .commander-bouton {
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (min-width: 768px) {
+  .resto {
+    /* Votre CSS pour les grands écrans ici */
+    /*img*/
+    /*main des plat*/
+  }
+  .resto .image-palette img {
+    width: 100%;
+    height: 350px;
+  }
+  .resto main {
+    background-color: white;
+    /*h3 plat*/
+  }
+  .resto main .titre-entre {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid #99e2d0;
+    height: 44px;
+    width: 35px;
+  }
+  .resto main .entre-1 {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 65px;
+    position: relative;
+    padding-top: 10px;
+  }
+  .resto main .section-menu {
+    background-color: #F6F6F6;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: -50px;
+    z-index: 20;
+    position: relative;
+    width: 768px;
+  }
+  .resto main .titre-palette {
+    display: flex;
+    justify-content: center;
+  }
+  .resto main .ensemble-entre {
+    display: flex;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+  .resto main .ensemble-entre h3 {
+    margin-left: 0px;
+  }
+  .resto main h3 {
+    margin-left: 0px;
+  }
+}
+
+footer {
+  background: #353535;
+  padding: 20px;
+}
+footer ul {
+  padding: 0%;
+}
+
+.footer-ohmyfood {
+  color: white;
+}
+.footer-ohmyfood h5 {
+  font-family: Shrikhand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+.footer-ohmyfood li {
+  list-style-type: none;
+}
+.footer-ohmyfood li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-ohmyfood li i {
+  color: white;
+  padding: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  /* Votre CSS pour les grands écrans ici */
+  .footer-ohmyfood {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .footer-ohmyfood h5 {
+    margin-left: 45px;
+    margin-right: 30px;
+    font-family: Shrikhand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+  }
+  .footer-ohmyfood ul {
+    padding: 0%;
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .fonctionnement-liste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .num-1,
+  .num-2,
+  .num-3 {
+    width: 320px;
+    height: 72.379px;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+}
+header h1 {
+  color: #101010;
+  text-align: center;
+  font-family: Shrikhand, cursive;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 0px;
+}
+
+.resto .arrow {
+  font-size: 30px;
+  position: relative;
+  top: 40px;
+  right: 100px;
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .resto .arrow {
+    position: relative;
+    right: 50%;
+  }
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.5s ease-in-out, fadeOut 2.5s ease-in-out 0.5s forwards;
+  pointer-events: none;
+}
+.loader-container .ball-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-container .ball-container .loader-ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: bounce 0.5s alternate infinite;
+}
+.loader-container .ball-container .loader-ball-1 {
+  background-color: #9356DC;
+  animation-delay: 0.1s;
+}
+.loader-container .ball-container .loader-ball-2 {
+  background-color: #FF79DA;
+  animation-delay: 0.2s;
+}
+.loader-container .ball-container .loader-ball-3 {
+  background-color: #99E2D0;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
