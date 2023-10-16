@@ -9,66 +9,6 @@
   padding-bottom: 60px;
   /*main-reservation*/
 }
-
-
-/*fonctionnement*/
-
-.accueil main .fonctionnement {
-  padding-bottom: 30px;
-}
-.accueil main .fonctionnement .fonctionnement-titre {
-  font-size: 24px;
-  font-weight: 700;
-  padding-left: 20px;
-  padding-top: 30px;
-  margin-left: 5%;
-}
-.accueil main .fonctionnement .num-1,
-.accueil main .fonctionnement .num-2,
-.accueil main .fonctionnement .num-3 {
-  width: 93%;
-  height: 70px;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background: var(--background, #F6F6F6);
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding-left: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  padding-right: 20px;
-}
-@media screen and (min-width: 1000px) {
-  .accueil main .fonctionnement .num-1,
-.accueil main .fonctionnement .num-2,
-.accueil main .fonctionnement .num-3 {
-    max-width: 320px !important;
-  }
-}
-.accueil main .fonctionnement .num-1 span,
-.accueil main .fonctionnement .num-2 span,
-.accueil main .fonctionnement .num-3 span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #9356DC;
-  color: #ffffff;
-  border-radius: 15px;
-  width: 24px;
-  height: 25px;
-  position: relative;
-  right: 30px;
-}
-.accueil main .fonctionnement .fa-solid.fa-mobile-screen-button,
-.accueil main .fonctionnement .fa-solid.fa-list-ul,
-.accueil main .fonctionnement .fa-solid.fa-store {
-  color: #7E7E7E;
-  padding: 15px;
-  margin-left: -25px;
-}
 .accueil main .location {
   background-color: #EAEAEA;
   padding: 0.5rem;
@@ -133,19 +73,21 @@
 .accueil main .reservation .bouton-explorer:hover {
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
 }
-.accueil main .fonctionnement {
+
+/*fonctionnement*/
+.fonctionnement {
   padding-bottom: 30px;
 }
-.accueil main .fonctionnement .fonctionnement-titre {
+.fonctionnement .fonctionnement-titre {
   font-size: 24px;
   font-weight: 700;
   padding-left: 20px;
   padding-top: 30px;
   margin-left: 5%;
 }
-.accueil main .fonctionnement .num-1,
-.accueil main .fonctionnement .num-2,
-.accueil main .fonctionnement .num-3 {
+.fonctionnement .num-1,
+.fonctionnement .num-2,
+.fonctionnement .num-3 {
   width: 93%;
   height: 70px;
   flex-shrink: 0;
@@ -162,15 +104,15 @@
   padding-right: 20px;
 }
 @media screen and (min-width: 1000px) {
-  .accueil main .fonctionnement .num-1,
-  .accueil main .fonctionnement .num-2,
-  .accueil main .fonctionnement .num-3 {
+  .fonctionnement .num-1,
+  .fonctionnement .num-2,
+  .fonctionnement .num-3 {
     max-width: 320px !important;
   }
 }
-.accueil main .fonctionnement .num-1 span,
-.accueil main .fonctionnement .num-2 span,
-.accueil main .fonctionnement .num-3 span {
+.fonctionnement .num-1 span,
+.fonctionnement .num-2 span,
+.fonctionnement .num-3 span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,9 +124,9 @@
   position: relative;
   right: 30px;
 }
-.accueil main .fonctionnement .fa-solid.fa-mobile-screen-button,
-.accueil main .fonctionnement .fa-solid.fa-list-ul,
-.accueil main .fonctionnement .fa-solid.fa-store {
+.fonctionnement .fa-solid.fa-mobile-screen-button,
+.fonctionnement .fa-solid.fa-list-ul,
+.fonctionnement .fa-solid.fa-store {
   color: #7E7E7E;
   padding: 15px;
   margin-left: -25px;
@@ -449,13 +391,13 @@ a {
   animation: fadeInUp 1s ease-in-out 0s 1 normal forwards; /* Animation d'entrée */
 }
 .resto .menu-item.delay-1 {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 .resto .menu-item.delay-2 {
-  animation-delay: 0.6s;
+  animation-delay: 0.8s;
 }
 .resto .menu-item.delay-3 {
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 @keyframes fadeInUp {
   0% {
@@ -816,12 +758,12 @@ header h1 {
   position: relative;
   top: 40px;
   right: 100px;
-  margin-left: 5px;
+  margin-right: 50%;
 }
 @media screen and (min-width: 768px) {
   .resto .arrow {
     position: relative;
-    right: 50%;
+    margin-right: 50%;
   }
 }
 
